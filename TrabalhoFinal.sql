@@ -127,7 +127,7 @@ CREATE TABLE tb_cargos
 (
 	descrição_do_cargo varchar(80),
 	id_cargo int identity PRIMARY KEY,
-	nome varchar(50)
+	nome varchar(50) NOT NULL
 )
 GO
 
